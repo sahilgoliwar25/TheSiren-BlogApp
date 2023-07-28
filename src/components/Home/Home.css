@@ -1,0 +1,48 @@
+.top-content{
+    display: flex;
+    gap: 10px;
+    
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card1 > img{
+    
+    width: 55vw;
+    border-radius: 10px;
+}
+.top-content > .card-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-row img{
+    width: 28vw;
+    border-radius: 10px;
+}
+.textContent{
+    text-align: left;
+    padding: 5px;
+    
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 10;
+    bottom:0;
+    transform: translateY(100%);
+    background-color: rgba(255, 255, 255, 0.733);
+    transition: 0.5s;
+}
+.card1 > .textContent{
+    padding-bottom: 30px;
+}
+.card2 > .textContent{
+    font-size: 24px;
+}
+.card3 > .textContent{
+    font-size: 24px;
+}
+.card:hover .textContent{
+    transform: translateY(0%);
+}
