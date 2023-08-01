@@ -1,0 +1,53 @@
+.footer-comp {
+  background-color: rgb(29, 29, 29);
+  width: 100%;
+  color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.company-logo-comp {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.company-logo-comp > a > img {
+  width: 100px;
+  height: 100px;
+}
+.company-info-comp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav-logo {
+  position: relative;
+  padding-left: 24px;
+  width: 150px;
+  font-size: 60px;
+
+  font-family: "Montserrat", sans-serif;
+}
+.footer-logo2 {
+  font-weight: 700;
+  color: white;
+}
+.footer-logo-rot {
+  position: absolute;
+  left: -30px;
+  font-size: 30px;
+  rotate: -90deg;
+  line-height: 70px;
+  color: white;
+}
+.company-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* font-size: 14px; */
+  text-align: justify;
+  line-height: 30px;
+  max-height: 100px;
+  max-width: 350px;
+}

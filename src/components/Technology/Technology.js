@@ -1,22 +1,64 @@
-import React, { useContext } from 'react'
-import { Store } from '../ContextAPI';
+import React, { useContext } from "react";
+import { Store } from "../ContextAPI";
+import "../GlobalNavComp.css";
 
 const Technology = () => {
   const [DData] = useContext(Store);
-  console.log(DData);
+  let count = 0;
   return (
-    <>
-    <div>Technology</div>
-    {DData.filter((item)=> item.cat ==='Technology').map((data, index) =>{
-      return(
-        <div key={index}>
-        <h1>{data.heading}</h1>
-        <img src={data.image} alt='Not Found'/>
+    <div className="nav-comp-body">
+      <div className="context-comp">
+        <div className="ele-container">
+          <p className="comp-head">Technology</p>
+          {DData.filter((item) => item.cat === "Technology").map(
+            (data, index) => {
+              return (
+                <div className="ele-parent" key={index}>
+                  <div className="elements">
+                    <img src={data.image} alt="Not Found" />
+                    <div>
+                      <p className="ele-head">{data.heading}</p>
+                      <p className="ele-desc">{data.description}</p>
+                      <p className="ele-type">
+                        <span>{data.type}</span> / {data.date}
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              );
+            }
+          )}
         </div>
-      )
-    })}
-    </>
-  )
-}
+        <div className="top-posts-container">
+          <p className="comp-head">Top Posts</p>
+          {DData.filter((item) => item.cat === "Technology")
+            .reverse()
+            .map((data, index) => {
+              if (count < 4) {
+                count++;
+                return (
+                  <div className="post-parent" key={index}>
+                    <div className="post-elements elements" id={`ele` + count}>
+                      <img src={data.image} alt="Not Found" />
+                      <div>
+                        <p className="ele-head">{data.heading}</p>
+                        <p className="ele-type">
+                          <span>{data.type}</span> / {data.date}
+                        </p>
+                      </div>
+                      <div className="post-rank">{count}</div>
+                    </div>
+                    <hr />
+                  </div>
+                );
+              }
+              return null;
+            })}
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Technology
+export default Technology;
