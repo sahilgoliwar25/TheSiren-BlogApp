@@ -4,7 +4,7 @@ export const Store = createContext();
 function ContextAPI(props) {
   const [data, setData] = useState([
     {
-      id: 1,
+      id: "1",
       heading:
         "What Varun Dhawan Said About Backlash Over Bawaal Dialogues On Hitler And Holocaust",
       image:
@@ -16,7 +16,7 @@ function ContextAPI(props) {
       cat: "Bollywood",
     },
     {
-      id: 2,
+      id: "2",
       heading:
         "Adding These 8 Habits To Your Routine Could Add Decades To Your Life",
       image:
@@ -28,7 +28,7 @@ function ContextAPI(props) {
       cat: "Fitness",
     },
     {
-      id: 3,
+      id: "3",
       heading:
         "The Masala Life: 7 Traditional Spice Mixes From Different Regions Of India",
       image:
@@ -40,7 +40,7 @@ function ContextAPI(props) {
       cat: "Food",
     },
     {
-      id: 4,
+      id: "4",
       heading:
         "Oppo Find N3 Launch Imminent as Company Officially Teases Foldable Phone",
       image:
@@ -52,7 +52,7 @@ function ContextAPI(props) {
       cat: "Technology",
     },
     {
-      id: 5,
+      id: "5",
       heading: "Sinead O'Connor Forever: Looking Back At Her Musical Legacy",
       image:
         "https://c.ndtvimg.com/2023-07/ii3lfib_sinead-oconnor_625x300_27_July_23.jpg",
@@ -63,7 +63,7 @@ function ContextAPI(props) {
       cat: "Hollywood",
     },
     {
-      id: 6,
+      id: "6",
       heading:
         "Anil Kapoor Spotted This Man Listening To My Name Is Lakhan In Munich",
       image:
@@ -75,7 +75,7 @@ function ContextAPI(props) {
       cat: "Bollywood",
     },
     {
-      id: 7,
+      id: "7",
       heading:
         "Janhvi Kapoor Walks The Ramp. Maheep, Shanaya And Khushi Compliment Her Look",
       image:
@@ -87,7 +87,7 @@ function ContextAPI(props) {
       cat: "Bollywood",
     },
     {
-      id: 8,
+      id: "8",
       heading:
         "Hollywood A-Listers Lead SAG-AFTRA Strike Rally At Times Square",
       image:
@@ -99,7 +99,7 @@ function ContextAPI(props) {
       cat: "Hollywood",
     },
     {
-      id: 9,
+      id: "9",
       heading:
         "Kia Seltos (2023) First Impressions: Tech Makes This Car Safer, Smarter, More Fun",
       image:
@@ -111,7 +111,7 @@ function ContextAPI(props) {
       cat: "Technology",
     },
     {
-      id: 10,
+      id: "10",
       heading: "Asus ROG Ally Review: The Start of Something New?",
       image:
         "https://i.gadgets360cdn.com/large/asus_rog_ally_hand_ndtv_1690357035962.jpg?downsize=950:*",
@@ -122,7 +122,7 @@ function ContextAPI(props) {
       cat: "Technology",
     },
     {
-      id: 11,
+      id: "11",
       heading:
         "World Hepatitis Day 2023: Understanding Different Types, Causes And Diagnosis",
       image:
@@ -134,7 +134,7 @@ function ContextAPI(props) {
       cat: "Fitness",
     },
     {
-      id: 12,
+      id: "12",
       heading: "10 Vegetarian Foods Rich In Omega-3 Fatty Acids",
       image:
         "https://c.ndtvimg.com/2022-03/dt76ej2_omega-3-plant-based-foods_625x300_23_March_22.jpg",
@@ -145,7 +145,7 @@ function ContextAPI(props) {
       cat: "Fitness",
     },
     {
-      id: 13,
+      id: "13",
       heading:
         "Conjunctivitis And Eye Infection Cases Surge After Heavy Rainfall: Know Symptoms, Prevention Tips, Treatment And Remedies",
       image:
@@ -157,7 +157,7 @@ function ContextAPI(props) {
       cat: "Fitness",
     },
     {
-      id: 14,
+      id: "14",
       heading:
         "Egg Benjo: This Delicious Street Food From Indore Has A British Link",
       image:
@@ -169,7 +169,7 @@ function ContextAPI(props) {
       cat: "Food",
     },
     {
-      id: 15,
+      id: "15",
       heading:
         "OnePlus 12 Camera Specifications Tipped Ahead of Launch, Might Include Periscope Zoom Camera",
       image:
@@ -181,7 +181,7 @@ function ContextAPI(props) {
       cat: "Technology",
     },
     {
-      id: 16,
+      id: "16",
       heading:
         "Samsung Galaxy Z Flip 5 First Impressions: Big Upgrades in a Familiar Package",
       image:
@@ -193,7 +193,7 @@ function ContextAPI(props) {
       cat: "Technology",
     },
     {
-      id: 17,
+      id: "17",
       heading:
         "Rocky Randhawa Borrows Rocky Balboa's Line For Gym Flex. See Ranveer Singh's Post",
       image:
@@ -204,7 +204,7 @@ function ContextAPI(props) {
       cat: "Bollywood",
     },
     {
-      id: 18,
+      id: "18",
       heading: "Ananya Panday Goes Full Desi In New Poster Of Dream Girl 2",
       image:
         "https://c.ndtvimg.com/2023-07/untpt73o_ananya-_625x300_31_July_23.jpg",
@@ -214,7 +214,7 @@ function ContextAPI(props) {
       cat: "Bollywood",
     },
     {
-      id: 19,
+      id: "19",
       heading:
         "Brinjal, Aubergine Or Eggplant? Know The Fascinating History Of This Powerhouse Vegetable",
       image:
@@ -226,7 +226,7 @@ function ContextAPI(props) {
       cat: "Food",
     },
     {
-      id: 20,
+      id: "20",
       heading:
         "How To Stop Your Stomach From Growling And Avoid Embarrassing Situations",
       image:
@@ -238,7 +238,7 @@ function ContextAPI(props) {
       cat: "Food",
     },
     {
-      id: 21,
+      id: "21",
       heading: "Weight Loss Tips: What Is The Best Time To Workout?",
       image:
         "https://c.ndtvimg.com/2023-07/7c7bp2g8_exercises-for-toned-body_625x300_25_July_23.jpg",
@@ -249,7 +249,7 @@ function ContextAPI(props) {
       cat: "Fitness",
     },
     {
-      id: 22,
+      id: "22",
       heading:
         "Warner Bros. Apologises After 'Barbenheimer' Tweets Spark Criticism In Japan: Report",
       image:
@@ -261,7 +261,7 @@ function ContextAPI(props) {
       cat: "Hollywood",
     },
     {
-      id: 23,
+      id: "23",
       heading:
         "Want A Healthy Tikki? Try This Delicious Chana Dal And Cabbage Tikki",
       image:
@@ -273,7 +273,7 @@ function ContextAPI(props) {
       cat: "Food",
     },
     {
-      id: 24,
+      id: "24",
       heading:
         'The Internet Calls Bhagavad Gita Quote In Oppenheimer Sex Scene "Absolutely Unnecessary"',
       image:
@@ -285,7 +285,7 @@ function ContextAPI(props) {
       cat: "Hollywood",
     },
     {
-      id: 25,
+      id: "25",
       heading: "Paul Reubens, Best-Known As Pee-Wee Herman, Dies At 70",
       image:
         "https://c.ndtvimg.com/2023-08/ftul59eg_-paul-reubens-_625x300_01_August_23.jpg",
@@ -296,7 +296,7 @@ function ContextAPI(props) {
       cat: "Hollywood",
     },
     {
-      id: 26,
+      id: "26",
       heading: "",
       image: "",
       description: "",
@@ -305,7 +305,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 27,
+      id: "27",
       heading: "",
       image: "",
       description: "",
@@ -314,7 +314,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 28,
+      id: "28",
       heading: "",
       image: "",
       description: "",
@@ -323,7 +323,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 29,
+      id: "29",
       heading: "",
       image: "",
       description: "",
@@ -332,7 +332,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 30,
+      id: "30",
       heading: "",
       image: "",
       description: "",
@@ -341,7 +341,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 31,
+      id: "31",
       heading: "",
       image: "",
       description: "",
@@ -350,7 +350,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 32,
+      id: "32",
       heading: "",
       image: "",
       description: "",
@@ -359,7 +359,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 33,
+      id: "33",
       heading: "",
       image: "",
       description: "",
@@ -368,7 +368,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 34,
+      id: "34",
       heading: "",
       image: "",
       description: "",
@@ -377,7 +377,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 35,
+      id: "35",
       heading: "",
       image: "",
       description: "",
@@ -386,7 +386,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 36,
+      id: "36",
       heading: "",
       image: "",
       description: "",
@@ -395,7 +395,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 37,
+      id: "37",
       heading: "",
       image: "",
       description: "",
@@ -404,7 +404,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 38,
+      id: "38",
       heading: "",
       image: "",
       description: "",
@@ -413,7 +413,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 39,
+      id: "39",
       heading: "",
       image: "",
       description: "",
@@ -422,7 +422,7 @@ function ContextAPI(props) {
       cat: "",
     },
     {
-      id: 40,
+      id: "40",
       heading: "",
       image: "",
       description: "",

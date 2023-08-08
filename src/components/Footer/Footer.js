@@ -44,7 +44,7 @@ function Footer() {
         <h2>Services</h2>
         <div className="footer-service-nav">
           <Link onClick={scrollWin} to="/">
-            Home
+            1 Home
           </Link>
           <Link to="/bollywood">Bollywood</Link>
           <Link to="/technology">Technology</Link>
