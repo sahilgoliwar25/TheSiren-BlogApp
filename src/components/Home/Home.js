@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Store } from "../ContextAPI";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   let count = 0;
@@ -11,41 +12,47 @@ const Home = () => {
     <>
       <div>
         <div className="top-content">
-          <div className="card1 card">
-            <img src={DData[x].image} alt="img Not Found" />
-            <div className="textContent">
-              {DData[x].heading}
-              <br />
+          <Link to={`/${DData[x].id}`}>
+            <div className="card1 card">
+              <img src={DData[x].image} alt="img Not Found" />
+              <div className="textContent">
+                {DData[x].heading}
+                <br />
 
-              <div className="typedate">
-                <span className="typebold">{DData[x].type}</span> /{" "}
-                {DData[x].date}
+                <div className="typedate">
+                  <span className="typebold">{DData[x].type}</span> /{" "}
+                  {DData[x].date}
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
           <div className="card-row">
-            <div className="card2 card">
-              <img src={DData[x + 1].image} alt="img Not Found" />
-              <div className="textContent">
-                {DData[x + 1].heading}
-                <br />
-                <div className="typedate">
-                  <span className="typebold">{DData[x + 1].type}</span> /{" "}
-                  {DData[x + 1].date}
+            <Link to={`/${DData[x + 1].id}`}>
+              <div className="card2 card">
+                <img src={DData[x + 1].image} alt="img Not Found" />
+                <div className="textContent">
+                  {DData[x + 1].heading}
+                  <br />
+                  <div className="typedate">
+                    <span className="typebold">{DData[x + 1].type}</span> /{" "}
+                    {DData[x + 1].date}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="card3 card">
-              <img src={DData[x + 2].image} alt="img Not Found" />
-              <div className="textContent">
-                {DData[x + 2].heading}
-                <br />
-                <div className="typedate">
-                  <span className="typebold">{DData[x + 2].type}</span> /{" "}
-                  {DData[x + 2].date}
+            </Link>
+            <Link to={`/${DData[x + 2].id}`}>
+              <div className="card3 card">
+                <img src={DData[x + 2].image} alt="img Not Found" />
+                <div className="textContent">
+                  {DData[x + 2].heading}
+                  <br />
+                  <div className="typedate">
+                    <span className="typebold">{DData[x + 2].type}</span> /{" "}
+                    {DData[x + 2].date}
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="latest-content containers-home">
@@ -56,21 +63,25 @@ const Home = () => {
                 count++;
                 return (
                   <div key={index}>
-                    <div className="latest-content-display">
-                      <img src={data.image} alt="Not Found" />
-                      <div className="latest-content-info">
-                        <p className="latest-content-heading">{data.heading}</p>
-                        <p className="latest-content-desc">
-                          {data.description}
-                        </p>
-                        <p className="latest-content-date">
-                          <span className="latest-content-date-bold">
-                            {data.type}
-                          </span>{" "}
-                          / {data.date}
-                        </p>
+                    <Link to={`/${data.id}`}>
+                      <div className="latest-content-display">
+                        <img src={data.image} alt="Not Found" />
+                        <div className="latest-content-info">
+                          <p className="latest-content-heading">
+                            {data.heading}
+                          </p>
+                          <p className="latest-content-desc">
+                            {data.description}
+                          </p>
+                          <p className="latest-content-date">
+                            <span className="latest-content-date-bold">
+                              {data.type}
+                            </span>{" "}
+                            / {data.date}
+                          </p>
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 );
               }

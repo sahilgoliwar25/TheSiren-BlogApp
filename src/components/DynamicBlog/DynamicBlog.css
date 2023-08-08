@@ -1,0 +1,16 @@
+.blogDetails {
+  width: 50%;
+  text-align: justify;
+}
+.blogImg {
+  width: 100%;
+}
+.blog-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogHead {
+  font-size: 2em;
+  font-weight: bold;
+}

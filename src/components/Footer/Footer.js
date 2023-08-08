@@ -2,8 +2,19 @@ import React from "react";
 import "./Footer.css";
 import logo from "../THE.png";
 import { Link } from "react-router-dom";
+import {
+  FaTwitterSquare,
+  FaFacebookSquare,
+  FaLinkedin,
+  FaMobile,
+} from "react-icons/fa";
+import { PiInstagramLogoFill } from "react-icons/pi";
+import { BiLogoGmail } from "react-icons/bi";
 
 function Footer() {
+  const scrollWin = () => {
+    window.scrollTo(0);
+  };
   return (
     <div className="footer-comp">
       <div className="company-info-comp">
@@ -21,6 +32,43 @@ function Footer() {
         <div className="company-desc">
           The Siren is India's leading blog Webapp providing latest and hot news
           straight to your devices.
+        </div>
+        <div className="company-social">
+          <FaLinkedin />
+          <FaTwitterSquare />
+          <FaFacebookSquare />
+          <PiInstagramLogoFill />
+        </div>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <div className="footer-service-nav">
+          <Link onClick={scrollWin} to="/">
+            Home
+          </Link>
+          <Link to="/bollywood">Bollywood</Link>
+          <Link to="/technology">Technology</Link>
+          <Link to="/hollywood">Hollywood</Link>
+          <Link to="/fitness">Fitness</Link>
+          <Link to="/food">Food</Link>
+        </div>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <div className="footer-service-nav">
+          <Link to="/hollywood">Help Centre</Link>
+          <Link to="/fitness">Careers</Link>
+          <Link to="/food">Contact Us</Link>
+        </div>
+      </div>
+      <div className="footer-company-info">
+        <h1>Ready to get started?</h1>
+        <button className="css-button-arrow--black">Book a demo</button>
+        <div className="footer-company-align">
+          <FaMobile /> +91-9111001089
+        </div>
+        <div className="footer-company-align">
+          <BiLogoGmail /> support@thesiren.in
         </div>
       </div>
     </div>
