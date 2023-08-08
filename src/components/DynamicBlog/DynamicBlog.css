@@ -9,8 +9,50 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .blogHead {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.8em;
+  font-weight: 500;
+  margin: 20px 0;
+}
+/*  */
+.user {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.user-info {
+  display: flex;
+  gap: 20px;
+}
+.user-img {
+  width: 80px;
+}
+.user-name {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.date {
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+.user-social-icons > svg {
+  font-size: 28px;
+}
+.blog {
+  position: fixed;
+  top: 40%;
+  left: 10%;
+}
+.blog-actions {
+  display: flex;
+  margin-top: 20px;
+}
+.blog-actions > svg {
+  font-size: 26px;
+}
+.blog-actions > p {
+  margin: 5px;
 }
