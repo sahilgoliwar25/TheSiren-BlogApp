@@ -22,12 +22,24 @@ function Navbar() {
         </div>
       </div>
       <div className="navi" style={{ display: data ? "flex" : "none" }}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/bollywood">Bollywood</NavLink>
-        <NavLink to="/technology">Technology</NavLink>
-        <NavLink to="/hollywood">Hollywood</NavLink>
-        <NavLink to="/fitness">Fitness</NavLink>
-        <NavLink to="/food">Food</NavLink>
+        <NavLink to="/" activeclassname="active" className="links">
+          Home
+        </NavLink>
+        <NavLink to="/bollywood" activeclassname="active" className="links">
+          Bollywood
+        </NavLink>
+        <NavLink to="/technology" activeclassname="active" className="links">
+          Technology
+        </NavLink>
+        <NavLink to="/hollywood" activeclassname="active" className="links">
+          Hollywood
+        </NavLink>
+        <NavLink to="/fitness" activeclassname="active" className="links">
+          Fitness
+        </NavLink>
+        <NavLink to="/food" activeclassname="active" className="links">
+          Food
+        </NavLink>
       </div>
     </div>
   );

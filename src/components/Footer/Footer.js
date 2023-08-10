@@ -37,33 +37,35 @@ function Footer() {
           <PiInstagramLogoFill />
         </div>
       </div>
-      <div>
-        <h2>Services</h2>
-        <div className="footer-service-nav">
-          <Link to="/">Home</Link>
-          <Link to="/bollywood">Bollywood</Link>
-          <Link to="/technology">Technology</Link>
-          <Link to="/hollywood">Hollywood</Link>
-          <Link to="/fitness">Fitness</Link>
-          <Link to="/food">Food</Link>
+      <div className="footer-actions-container">
+        <div>
+          <h2>Services</h2>
+          <div className="footer-service-nav">
+            <Link to="/">Home</Link>
+            <Link to="/bollywood">Bollywood</Link>
+            <Link to="/technology">Technology</Link>
+            <Link to="/hollywood">Hollywood</Link>
+            <Link to="/fitness">Fitness</Link>
+            <Link to="/food">Food</Link>
+          </div>
         </div>
-      </div>
-      <div>
-        <h2>Resources</h2>
-        <div className="footer-service-nav">
-          <Link to="/hollywood">Help Centre</Link>
-          <Link to="/fitness">Careers</Link>
-          <Link to="/food">Contact Us</Link>
+        <div>
+          <h2>Resources</h2>
+          <div className="footer-service-nav">
+            <Link to="/hollywood">Help Centre</Link>
+            <Link to="/fitness">Careers</Link>
+            <Link to="/food">Contact Us</Link>
+          </div>
         </div>
-      </div>
-      <div className="footer-company-info">
-        <h1>Ready to get started?</h1>
-        <button className="css-button-arrow--black">Book a demo</button>
-        <div className="footer-company-align">
-          <FaMobile /> +91-9111001089
-        </div>
-        <div className="footer-company-align">
-          <BiLogoGmail /> support@thesiren.in
+        <div className="footer-company-info">
+          <h1>Ready to get started?</h1>
+          <button className="css-button-arrow--black">Book a demo</button>
+          <div className="footer-company-align">
+            <FaMobile /> +91-9111001089
+          </div>
+          <div className="footer-company-align">
+            <BiLogoGmail /> support@thesiren.in
+          </div>
         </div>
       </div>
     </div>

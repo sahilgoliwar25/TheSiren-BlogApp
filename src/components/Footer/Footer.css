@@ -2,11 +2,12 @@
   background-color: rgb(29, 29, 29);
   width: 100%;
   color: white;
-  height: 300px;
-  display: flex;
+  height: auto;
+
   /* align-items: center; */
-  padding-top: 20px;
-  justify-content: space-around;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 .company-logo-comp {
   display: flex;
@@ -45,7 +46,6 @@
   color: white;
 }
 .company-desc {
-  overflow: hidden;
   text-overflow: ellipsis;
   /* font-size: 14px; */
   text-align: justify;
@@ -123,4 +123,31 @@
   top: 0;
   right: -20px;
   transition: 0.4s;
+}
+.footer-actions-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* -------------Media Query for Mobiles--------------- */
+@media only screen and (min-device-width: 300px) and (max-device-width: 1200px) {
+  .company-logo-comp > a > img {
+    width: 60px;
+    height: 60px;
+  }
+  .footer-nav-logo {
+    display: none;
+  }
+  .footer-comp {
+    grid-template-columns: auto;
+  }
+  .company-social > svg {
+    width: 25px;
+    height: 25px;
+  }
+  .footer-company-info > h1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
 }

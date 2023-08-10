@@ -22,16 +22,16 @@
 }
 .context-comp {
   display: grid;
-  grid-template-areas: "bollywood post";
+  /* grid-template-areas: "bollywood post"; */
   grid-template-columns: 65% 35%;
   /* gap: 10px; */
 }
 .ele-container {
-  grid-area: bollywood;
+  /* grid-area: bollywood; */
   padding: 10px;
 }
 .top-posts-container {
-  grid-area: post;
+  /* grid-area: post; */
   padding: 10px;
 }
 .elements > img {
@@ -115,4 +115,12 @@
 }
 #ele1 > .post-rank {
   display: none;
+}
+/* -------------Media Query for Mobiles--------------- */
+@media only screen and (min-device-width: 300px) and (max-device-width: 1200px) {
+  .context-comp {
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
 }

@@ -64,13 +64,13 @@ a {
   text-decoration: none;
   color: #000;
 }
-.navi > a {
+.links {
   text-decoration: none;
-  color: #27374d;
+  color: #acafb3;
   font-weight: bold;
   /* font-size: 30px; */
 }
-.navi > a::after {
+.links::after {
   margin-top: 10px;
   content: "";
   display: block;
@@ -78,14 +78,29 @@ a {
   width: 100%;
   background-color: #000307;
   transform: scaleX(0);
-  transform-origin: left;
+  transform-origin: right;
   transition: transform 0.3s ease;
 }
-.navi > a:hover::after {
+.links:hover::after {
   transform: scaleX(1);
+  transform-origin: left;
 }
 .nav-dropdown {
   display: none;
+  height: auto;
+}
+.active {
+  color: #000;
+}
+.active::after {
+  margin-top: 10px;
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #000307;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 /* -------------Media Query for Mobiles--------------- */
@@ -104,5 +119,34 @@ a {
   .navi {
     flex-direction: column;
     height: auto;
+  }
+  .links::after {
+    background-color: transparent;
+  }
+  .active::after {
+    background-color: transparent;
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+  .nav-dropdown {
+    display: block;
+  }
+  .navbar {
+    width: 90%;
+  }
+  .nav-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .navi {
+    flex-direction: column;
+    height: auto;
+  }
+  .links::after {
+    background-color: transparent;
+  }
+  .active::after {
+    background-color: transparent;
   }
 }
