@@ -65,12 +65,8 @@ const Home = () => {
                 <div className="latest-content-display">
                   <img src={DData[x + 3].image} alt="Not Found" />
                   <div className="latest-content-info">
-                    <p className="latest-content-heading">
-                      {DData[x + 3].heading}
-                    </p>
-                    <p className="latest-content-desc">
-                      {DData[x + 3].description}
-                    </p>
+                    <p className="latest-heading">{DData[x + 3].heading}</p>
+                    <p className="latest-desc">{DData[x + 3].description}</p>
                     <p className="latest-content-date">
                       <span className="latest-content-date-bold">
                         {DData[x + 3].type}
@@ -86,12 +82,8 @@ const Home = () => {
                 <div className="latest-content-display">
                   <img src={DData[x + 4].image} alt="Not Found" />
                   <div className="latest-content-info">
-                    <p className="latest-content-heading">
-                      {DData[x + 4].heading}
-                    </p>
-                    <p className="latest-content-desc">
-                      {DData[x + 4].description}
-                    </p>
+                    <p className="latest-heading">{DData[x + 4].heading}</p>
+                    <p className="latest-desc">{DData[x + 4].description}</p>
                     <p className="latest-content-date">
                       <span className="latest-content-date-bold">
                         {DData[x + 4].type}
@@ -107,12 +99,8 @@ const Home = () => {
                 <div className="latest-content-display">
                   <img src={DData[x + 5].image} alt="Not Found" />
                   <div className="latest-content-info">
-                    <p className="latest-content-heading">
-                      {DData[x + 5].heading}
-                    </p>
-                    <p className="latest-content-desc">
-                      {DData[x + 5].description}
-                    </p>
+                    <p className="latest-heading">{DData[x + 5].heading}</p>
+                    <p className="latest-desc">{DData[x + 5].description}</p>
                     <p className="latest-content-date">
                       <span className="latest-content-date-bold">
                         {DData[x + 5].type}

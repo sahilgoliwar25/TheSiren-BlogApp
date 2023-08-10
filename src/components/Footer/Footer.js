@@ -12,9 +12,6 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 import { BiLogoGmail } from "react-icons/bi";
 
 function Footer() {
-  const scrollWin = () => {
-    window.scrollTo(0);
-  };
   return (
     <div className="footer-comp">
       <div className="company-info-comp">
@@ -43,9 +40,7 @@ function Footer() {
       <div>
         <h2>Services</h2>
         <div className="footer-service-nav">
-          <Link onClick={scrollWin} to="/">
-            1 Home
-          </Link>
+          <Link to="/">Home</Link>
           <Link to="/bollywood">Bollywood</Link>
           <Link to="/technology">Technology</Link>
           <Link to="/hollywood">Hollywood</Link>

@@ -56,6 +56,8 @@
 .card:hover .textContent {
   transform: translateY(0%);
 }
+
+/* ---------The Latest-----------  */
 .the-latest {
   font-size: 28px;
   font-weight: 500;
@@ -83,16 +85,16 @@
   margin: 10px;
 }
 .latest-content-display {
-  width: 400px;
-  height: 500px;
+  width: 25vw;
+  height: 100%;
   background-color: #f3f3f3;
 }
 .latest-content-display > img {
-  width: 400px;
+  width: 100%;
   aspect-ratio: 16/9;
   object-fit: fill;
 }
-.latest-content-heading {
+.latest-heading {
   font-weight: 500;
   font-size: 22px;
   overflow: hidden;
@@ -100,11 +102,10 @@
   display: -webkit-box;
   line-height: 30px;
   max-height: 100px;
-  max-width: 400px;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-.latest-content-desc {
+.latest-desc {
   color: #949494;
   overflow: hidden;
   text-overflow: ellipsis;
