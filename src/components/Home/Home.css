@@ -41,7 +41,7 @@
   font-size: 28px;
   font-weight: bold;
   z-index: 10;
-  bottom: 0;
+  bottom: 1px;
   transform: translateY(100%);
   background-color: rgba(0, 0, 0, 0.733);
   transition: 0.5s;

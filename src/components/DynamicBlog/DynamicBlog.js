@@ -97,7 +97,7 @@ const DynamicBlog = () => {
                 // console.log(data);
                 return (
                   <Link to={`/${data.id}`}>
-                    <div key={index}>
+                    <div key={data.id}>
                       <div className="more-siren-img">
                         <img
                           className=""
