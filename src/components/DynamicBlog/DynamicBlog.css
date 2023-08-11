@@ -71,7 +71,30 @@
   padding: 30px 0;
 }
 .more-siren-container {
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
   background-color: rgb(231, 231, 231);
+}
+.more-siren-data {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.more-siren-img > img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: fill;
+}
+.more-siren-head {
+  font-weight: 500;
+}
+.more-siren-date {
+  font-size: 12px;
+}
+.blog-data-desc {
+  font-family: "Nunito Sans";
 }
 /* -------------Media Query for Mobiles--------------- */
 @media only screen and (min-device-width: 300px) and (max-device-width: 1200px) {
@@ -92,6 +115,12 @@
   }
   .user-social-icons > svg {
     font-size: 24px;
+  }
+  .more-siren-head {
+    font-size: 14px;
+  }
+  .more-siren-date {
+    font-size: 10px;
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
@@ -126,5 +155,12 @@
   .blog-actions {
     margin-top: 14px;
     font-size: 12px;
+  }
+  .more-siren-data {
+    grid-template-columns: auto;
+  }
+  .blog-data-desc {
+    font-size: 0.8em;
+    font-family: "Nunito Sans";
   }
 }

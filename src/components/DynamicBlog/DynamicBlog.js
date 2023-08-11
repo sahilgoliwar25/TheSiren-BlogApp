@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Store } from "../ContextAPI";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./DynamicBlog.css";
 import man from "../../assets/man.png";
 import { PiHandsClappingDuotone, PiShareNetworkBold } from "react-icons/pi";
@@ -10,10 +10,14 @@ import {
   FaInstagramSquare,
   FaYoutubeSquare,
 } from "react-icons/fa";
+import { useState } from "react";
 
 const DynamicBlog = () => {
   const [DData] = useContext(Store);
   const stuid = useParams().Id;
+  const [cato] = useState(DData.filter((item) => item.id === stuid));
+  // console.log(cato[0].cat);
+  let count = 0;
 
   return (
     <div>
@@ -41,8 +45,11 @@ const DynamicBlog = () => {
               </div>
               <img className="blogImg" src={data.image} alt="Not Found" />
               <div>
-                <p>{data.heading}</p>
-                <p>{data.description}</p>
+                {data.description.split("\n").map((str) => (
+                  <p className="blog-data-desc" key={index}>
+                    {str}
+                  </p>
+                ))}
               </div>
               <div className="blog-response">
                 <div className="blog-actions">
@@ -77,16 +84,42 @@ const DynamicBlog = () => {
           </div>
         </div>
       </div>
-      {/* <div className="more-siren-container">
-        <h3>More From The Siren</h3>
+      <div className="more-siren-container">
+        <h2>More From The Siren</h2>
         <div>
-          <div>
-            {DData.filter((item) => item.id === stuid).map((data, index) => {
-              return <div></div>;
+          <div className="more-siren-data">
+            {DData.filter(
+              (item) => item.cat === cato[0].cat && item.id !== stuid
+            ).map((data, index) => {
+              // console.log(data);
+              if (count < 3) {
+                count++;
+                // console.log(data);
+                return (
+                  <Link to={`/${data.id}`}>
+                    <div key={index}>
+                      <div className="more-siren-img">
+                        <img
+                          className=""
+                          src={data.image}
+                          alt="More Siren Imgs"
+                        />
+                      </div>
+                      <div>
+                        <p className="more-siren-head">{data.heading}</p>
+                        <p className=" more-siren-date">
+                          {data.type} / {data.date}
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              }
+              return null;
             })}
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import { FaArrowDown } from "react-icons/fa";
 const Home = () => {
   // let count = 0;
   const [DData] = useContext(Store);
-  console.log(DData[0]);
+  // console.log(DData[0]);
   const x = Math.floor(Math.random() * 10);
   return (
     <>
@@ -278,9 +278,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* {data.description.split("\n").map((str) => (
-                  <p>{str}</p>
-                ))} */}
     </>
   );
 };
