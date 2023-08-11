@@ -5,7 +5,7 @@
   /* width: 80%; */
 }
 .comp-head {
-  font-size: 28px;
+  font-size: 2em;
   font-weight: bold;
   margin: 20px 0;
 }
@@ -123,4 +123,28 @@
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+  .route-component {
+    width: 95%;
+  }
+  .comp-head {
+    font-size: 1.5em;
+    margin: 15px 0;
+  }
+  .elements > img {
+    width: 100px;
+  }
+  #ele1 > img {
+    width: 200px;
+  }
+  .ele-head {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .ele-desc {
+    font-size: 12px;
+  }
+  .ele-type {
+    font-size: 11px;
+  }
 }

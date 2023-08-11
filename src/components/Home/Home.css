@@ -61,7 +61,7 @@
 
 /* ---------The Latest-----------  */
 .the-latest {
-  font-size: 28px;
+  font-size: 2em;
   font-weight: 500;
   margin: 20px 0;
 }
@@ -130,11 +130,6 @@
   color: #424242;
 }
 
-.blog-ad {
-  /* display: flex;
-  justify-content: right;
-  height: 90vh; */
-}
 .blog-ad > img {
   width: 100%;
 }
@@ -208,7 +203,7 @@
 
 /* ----------------------------------- */
 .the-latest-stories {
-  font-size: 28px;
+  font-size: 2em;
   font-weight: 500;
   margin: 20px 0;
 }
@@ -283,7 +278,7 @@
   }
   .textContent {
     transform: translateY(0);
-    font-size: 18px;
+    font-size: 1em;
   }
   .typedate {
     font-size: 12px;
@@ -340,4 +335,56 @@
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+  .top-content {
+    flex-direction: column;
+  }
+  .latest-post {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .latest-content-display {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+  }
+  .latest-elements > img {
+    width: 100px;
+  }
+  .card1 > img {
+    width: 100%;
+  }
+  .card-row img {
+    width: 100%;
+  }
+  .card2 > .textContent {
+    overflow: auto;
+    text-overflow: clip;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: block;
+  }
+  .card3 > .textContent {
+    overflow: auto;
+    text-overflow: clip;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: block;
+  }
+  .the-latest {
+    font-size: 1.6em;
+  }
+  .the-latest-stories {
+    font-size: 1.6em;
+  }
+  .latest-ele-head {
+    font-size: 16px;
+  }
+  .latest-stories-display {
+    height: auto;
+  }
+  .latest-post > hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
 }

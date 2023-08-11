@@ -4,8 +4,11 @@ import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
-  const [data, setData] = useState(true);
-  console.log(data);
+  const [data, setData] = useState(false);
+  // console.log(data);
+  const handleNavClick = () => {
+    setData(false);
+  };
   return (
     <div className="nav-Container">
       <div className="navbar">
@@ -21,7 +24,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className="navi" style={{ display: data ? "flex" : "none" }}>
+      <div className="navi nav-main">
         <NavLink to="/" activeclassname="active" className="links">
           Home
         </NavLink>
@@ -38,6 +41,59 @@ function Navbar() {
           Fitness
         </NavLink>
         <NavLink to="/food" activeclassname="active" className="links">
+          Food
+        </NavLink>
+      </div>
+      <div
+        className="navi nav-mobile"
+        style={{ display: data ? "flex" : "none" }}
+      >
+        <NavLink
+          to="/"
+          activeclassname="active"
+          className="links"
+          onClick={() => handleNavClick()}
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/bollywood"
+          activeclassname="active"
+          className="links"
+          onClick={() => handleNavClick()}
+        >
+          Bollywood
+        </NavLink>
+        <NavLink
+          to="/technology"
+          activeclassname="active"
+          className="links"
+          onClick={() => handleNavClick()}
+        >
+          Technology
+        </NavLink>
+        <NavLink
+          to="/hollywood"
+          activeclassname="active"
+          className="links"
+          onClick={() => handleNavClick()}
+        >
+          Hollywood
+        </NavLink>
+        <NavLink
+          to="/fitness"
+          activeclassname="active"
+          className="links"
+          onClick={() => handleNavClick()}
+        >
+          Fitness
+        </NavLink>
+        <NavLink
+          to="/food"
+          activeclassname="active"
+          className="links"
+          onClick={() => handleNavClick()}
+        >
           Food
         </NavLink>
       </div>

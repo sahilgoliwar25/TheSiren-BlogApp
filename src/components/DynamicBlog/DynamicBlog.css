@@ -95,4 +95,36 @@
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+  .blogDetails {
+    width: 95%;
+  }
+  .blogHead {
+    font-size: 1em;
+  }
+  .user-img {
+    width: 35px;
+  }
+  .user-name {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .user-social-icons > svg {
+    font-size: 20px;
+  }
+  .written-user {
+    font-size: 11px;
+    padding: 20px 0;
+  }
+  .blog-response {
+    margin-bottom: 14px;
+  }
+  .user-info {
+    align-items: center;
+  }
+  .blog-actions {
+    margin-top: 14px;
+    font-size: 12px;
+  }
 }
