@@ -269,7 +269,7 @@
   color: #424242;
 }
 /* -------------Media Query for Mobiles--------------- */
-@media only screen and (min-device-width: 300px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 270px) and (max-device-width: 1200px) {
   .blog-ad {
     display: none;
   }
@@ -334,7 +334,7 @@
     line-height: 22px;
   }
 }
-@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 270px) and (max-device-width: 500px) {
   .top-content {
     flex-direction: column;
   }

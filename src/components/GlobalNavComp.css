@@ -117,12 +117,15 @@
   display: none;
 }
 /* -------------Media Query for Mobiles--------------- */
-@media only screen and (min-device-width: 300px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 270px) and (max-device-width: 1200px) {
+  .blog-ad {
+    display: none;
+  }
   .context-comp {
     grid-template-columns: auto;
   }
 }
-@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 270px) and (max-device-width: 500px) {
   .route-component {
     width: 95%;
   }

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Store } from "../ContextAPI";
 import "../GlobalNavComp.css";
 import { Link } from "react-router-dom";
+import ads from "../../assets/ad.gif";
 
 const Bollywood = () => {
   const [DData] = useContext(Store);
@@ -63,6 +64,9 @@ const Bollywood = () => {
               }
               return null;
             })}
+          <div className="blog-ad">
+            <img src={ads} alt="Ad not found" />
+          </div>
         </div>
       </div>
     </div>

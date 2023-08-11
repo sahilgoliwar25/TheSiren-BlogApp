@@ -297,48 +297,60 @@ function ContextAPI(props) {
     },
     {
       id: "26",
-      heading: "",
-      image: "",
-      description: "",
+      heading:
+        'To Son Ranveer, 18 Today, Birthday Wish From Mom Sonali Bendre: "You Can Do It"',
+      image:
+        "https://c.ndtvimg.com/2023-08/ii9ag8s_ranveer_625x300_11_August_23.jpg",
+      description:
+        "New Delhi: Sonali Bendre's latest Instagram entry will make you go aww. The actress has dropped an adorable birthday wish for her son, Ranveer Behl. He turns 18. She has picked some precious memories from Ranveer's childhood days for the special birthday post on Instagram. While the first photograph captured Ranveer's goofy and fun side, the next slide featured a picture-perfect frame of the birthday boy posing with his parents. Sonali Bendre is married to filmmaker and entrepreneur Goldie Behl. The couple got married in 2002. Sonali Bendre's birthday note for Ranveer read, “One last time before he leaves the nest and I can embarrass him publicly! Happy Birthday, Ranveer! This year is going to be amazing, I know you can do it!” Reacting to the post, Maheep Kapoor wrote, “Happy Birthday Handsome.” Celebrity stylist Anaita Shroff Adajania also wished a very “happy birthday” to Ranveer. Sussanne Khan's sister Farah Khan Ali commented: “Happy birthday Ranveer. May you shine bright. Have an amazing day and year. (red heart emojis)” Huma Qureshi simply dropped a red heart in the comments. \nNew Delhi: Sonali Bendre's latest Instagram entry will make you go aww. The actress has dropped an adorable birthday wish for her son, Ranveer Behl. He turns 18. She has picked some precious memories from Ranveer's childhood days for the special birthday post on Instagram. While the first photograph captured Ranveer's goofy and fun side, the next slide featured a picture-perfect frame of the birthday boy posing with his parents. Sonali Bendre is married to filmmaker and entrepreneur Goldie Behl. The couple got married in 2002. Sonali Bendre's birthday note for Ranveer read, “One last time before he leaves the nest and I can embarrass him publicly! Happy Birthday, Ranveer! This year is going to be amazing, I know you can do it!” Reacting to the post, Maheep Kapoor wrote, “Happy Birthday Handsome.” Celebrity stylist Anaita Shroff Adajania also wished a very “happy birthday” to Ranveer. Sussanne Khan's sister Farah Khan Ali commented: “Happy birthday Ranveer. May you shine bright. Have an amazing day and year. (red heart emojis)” Huma Qureshi simply dropped a red heart in the comments. \nLast year, Sonali Bendre shared a happy picture of Ranveer on Instagram to mark his 17th birthday. Her caption screamed love from miles and a half away. “When your son is a teenager who shies away from clicking photos, this is the best one can do…Happy Birthday Ranveer, don't hold it against me,” she captioned the post. \nOn the work front, Sonali Bendre was last seen in The Broken News, alongside Jaideep Ahlawat and Shriya Pilgaonkar. The web show is currently streaming on Zee 5. \nLast month, the actress announced that she has already wrapped up The Broken News season 2. ",
       type: "Travel",
       date: "August 21 2022",
-      cat: "",
+      cat: "Bollywood",
     },
     {
       id: "27",
-      heading: "",
-      image: "",
-      description: "",
+      heading: "Wonder Woman 3: DC Has No Immediate Plans For The Film",
+      image:
+        "https://c.ndtvimg.com/2023-08/1b5fdt6g_gal-gadot_625x300_11_August_23.jpg",
+      description:
+        "Los Angeles: Despite Hollywood star Gal Gadot's recent comments about Wonder Woman 3, DC Studios is reportedly not looking to make the third chapter in the movie series anytime soon. Multiple sources told news outlet Variety that \"Wonder Woman\" 3 is not in development at DC Studios. In a recent interview, Gal Gadot had claimed that DC Studios heads James Gunn and Peter Safran told her they would develop Wonder Woman 3 together. \n\"I love portraying Wonder Woman. It's so close to and dear to my heart. From what I heard from James and from Peter is that we're gonna develop a 'Wonder Woman 3' together,\" the actor had said. \nGal Gadot further talked about her future as Diana Prince aka Wonder Woman during a profile interview with Flaunt magazine. \n\"I was invited to a meeting with James Gunn and Peter Safran and what they told me, and I'm quoting: 'You're in the best hands. We're going to develop 'Wonder Woman 3' with you. (We) love you as Wonder Woman- you've got nothing to worry about.' So time will tell,\" she had said. \nGal Gadot first played Wonder Woman in Zack Snyder's DC Universe, debuting in \"Batman v Superman: Dawn of Justice\" before leading her own two standalone films: Wonder Woman and Wonder Woman 1984.\" She most recently made cameos as Wonder Woman in DC films \"Shazam! Fury of the Gods\" and The Flash.",
       type: "Travel",
       date: "August 21 2022",
-      cat: "",
+      cat: "Hollywood",
     },
     {
       id: "28",
-      heading: "",
-      image: "",
-      description: "",
+      heading: "Heart: 9 Tips That Will Help Manage Diabetes",
+      image:
+        "https://c.ndtvimg.com/2023-04/j92hc478_diabetes_625x300_03_April_23.jpg?q=50",
+      description:
+        "Diabetes is one of the most common cardiovascular diseases. It occurs when our blood glucose is high. Having diabetes can increase one's risk of various other diseases. Hence, it is necessary to prevent as well as treat diabetes. \nIf you already have diabetes, it is not too late to take steps to treat it or even improve your blood sugar levels. There are various ways in which you can manage diabetes and reduce blood sugar levels. In this article, we share tips that will help manage your blood sugar levels. \n8 Tips that can help manage diabetes and reduce blood sugar levels: \n1. Manage your diet \nOne of the most effective ways to manage diabetes is to follow a healthy diet. Avoid sugary and processed foods, and focus on consuming whole, unprocessed foods that are rich in fibre. Incorporate plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats into your meals. Additionally, portion control is crucial to maintain stable blood sugar levels. \n2. Stay physically active \nRegular exercise is essential for managing diabetes. Engaging in aerobic activities like walking, jogging, swimming, or cycling can help improve insulin sensitivity and lower blood sugar levels. Aim for at least 30 minutes of moderate-intensity exercise most days of the week. \n3. Maintain a healthy weight \nLosing excess weight can significantly improve insulin sensitivity and help manage diabetes. Adopting a balanced diet and exercising regularly can lead to weight loss, resulting in better control of blood sugar levels. \n4. Limit carbohydrate intake \nCarbohydrates are converted into sugar during digestion and can cause spikes in blood glucose levels. Focus on consuming complex carbohydrates like whole grains and legumes rather than refined carbohydrates such as white bread, pastries, and sugary drinks. Monitor your carbohydrate intake and spread it evenly throughout the day to avoid drastic blood sugar fluctuations. \n5. Manage stress levels \nChronic stress can contribute to elevated blood sugar levels. Find healthy ways to cope with stress such as practicing mindfulness, yoga, deep breathing exercises, or engaging in hobbies that help you relax. Get enough sleep and prioritise self-care activities to reduce stress levels. \n6. Stay hydrated \nDrinking an adequate amount of water can help regulate blood sugar levels and promote overall health. Aim to drink at least 8-10 glasses of water per day and limit the consumption of sugary beverages. \n7. Quit smoking \nSmoking not only increases the risk of developing diabetes but also worsens its complications. If you smoke, consider seeking professional help to quit smoking and improve your overall health. \n8. Monitor blood sugar levels regularly \nRegular monitoring of blood sugar levels is vital for managing diabetes. Follow the recommended guidelines provided by your healthcare provider to check your blood sugar levels at home and keep a record of the results. This will help you track your progress and make necessary adjustments to your lifestyle. \nRemember lowering your blood sugar levels is a gradual process, and always consult with your healthcare provider before making any significant changes to your lifestyle or starting a new exercise regime.",
       type: "Travel",
       date: "August 21 2022",
-      cat: "",
+      cat: "Fitness",
     },
     {
       id: "29",
-      heading: "",
-      image: "",
-      description: "",
+      heading: "How To Whip Up Lip-smacking Homemade Jam In Minutes",
+      image:
+        "https://c.ndtvimg.com/2023-08/k48gk4ro_jam_625x300_10_August_23.jpg",
+      description:
+        "Jam, a staple in most households and a favourite among many is a delightful treat enjoyed on a daily basis. Kids particularly love it, often turning to jam when they're feeling a bit choosy about their meals. Whether spread on bread, roti, or paratha, it adds that extra touch of flavour. While the market offers a variety of jam brands in different flavours, the cost can add up over time. On the flip side, there are those who prefer the simplicity and affordability of homemade jam, avoiding the additives found in store-bought options. If you fall into this category and want to treat your family to homemade goodness, consider these foolproof tips for crafting the perfect jam right in your kitchen. \nHere's How To Whip Up Lip-smacking Homemade Jam In Minutes: \n1. Picking the Right Fruit \nAlthough jam can be made from a range of fruits, your choice significantly impacts the taste. It's crucial to avoid using overripe or damaged fruits. Always opt for fresh, ripe fruits that aren't too soft. If you're aiming for jam, slightly less ripe fruits are your best bet. \n2. Using the Right Sugar \nFor a better flavour, always go for granulated sugar when making jam. However, remember that the sugar needs to dissolve completely before the mixture boils. Failing to do so might result in a grainy texture, so be patient and ensure proper dissolution. \n3.Getting Your Jars Ready \nProperly preparing your jars is essential to maintain the taste of your jam. Wash your glass jars thoroughly with warm, soapy water and make sure they're completely dry. To be extra cautious, give them a wipe-down or leave them in the sun for a bit. \n4.Dealing with Consistency Issues \nSometimes, your homemade jam might not have the thickness you're aiming for, unlike store-bought varieties. If you encounter this issue, here are some easy solutions. \n5. Give it Another Cook \nWhen your jam turns out thinner than you'd like, simply put it back in the pot and gently heat it again until it thickens. Just remember to keep stirring to prevent sticking. \n6.Let it Set \nAfter cooking, you might find your jam is a bit runny. Don't fret - it might thicken as it cools down. You can leave the jam at room temperature or pop it in the fridge for a few hours to achieve the desired consistency. \nWith these simple yet effective tips, you're all set to create a homemade jam that's as delicious and satisfying as store-bought versions. Enjoy the process and relish the taste of your very own concoction.",
       type: "Travel",
       date: "August 21 2022",
-      cat: "",
+      cat: "Food",
     },
     {
       id: "30",
-      heading: "",
-      image: "",
-      description: "",
+      heading:
+        "iQoo Z7 Pro 5G Teased to Get 120Hz AMOLED Display, MediaTek Dimensity 7200 5G SoC",
+      image:
+        "https://i.gadgets360cdn.com/large/iqoo_z7_pro_5g_twitter_1690260813636.jpg?downsize=950:*",
+      description:
+        "iQoo Z7 Pro 5G is set to launch in India on August 31. The Vivo sub-brand has now revealed several details about the upcoming iQoo Z series smartphones just weeks ahead of the official debut. The iQoo Z7 Pro 5G is confirmed to feature a high refresh rate AMOLED display. It is also teased to run on a MediaTek chipset. Further, the iQoo Z7 Pro 5G will include a 64-megapixel camera sensor. The handset is expected to come as a follow-up to the iQoo Z7. \niQoo, via a press release on Friday, August 11, announced key specifications of the iQoo Z7 Pro 5G. The handset will have a 3D Curved AMOLED display with 120Hz refresh rate. It is confirmed to come with an anti-glare (AG) glass finish on the rear. In the camera department, the handset will feature a 64-megapixel aura light rear camera, with support for OIS (optical image stabilisation). \nAs expected, following multiple leaks and rumours, the iQoo Z7 Pro 5G is confirmed to have a MediaTek Dimensity 7200 5G SoC under the hood. The recently launched Vivo V27 also runs on the same chipset. The iQoo handset claimed to have scored over 7,00,000 points on the benchmarking website AnTuTu. Further, the smartphone is teased to have a sim design with a 7.36mm thickness. iQoo has confirmed that the iQoo Z7 Pro 5G will be manufactured at Vivo's Greater Noida facility in India. \niQoo has already announced that the launch of iQoo Z7 Pro 5G will take place on August 31 in India. The company and Amazon India has been teasing the smartphone via identical microsite for the past few days. It appears to have a curved display and centrally-aligned hole-punch cutout on the screen for the selfie camera \nThe iQoo Z7 Pro 5G is said to be priced between Rs. 25,000 and Rs. 30,000 in India. The iQoo Z7 Pro 5G is expected to succeed the iQoo Z7.",
       type: "Travel",
       date: "August 21 2022",
-      cat: "",
+      cat: "Technology",
     },
     {
       id: "31",
