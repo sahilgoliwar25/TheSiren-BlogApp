@@ -1,6 +1,7 @@
 .blogDetails {
   width: 50%;
   text-align: justify;
+  padding: 5px;
 }
 .blogImg {
   width: 100%;

@@ -9,7 +9,7 @@ const Home = () => {
   // let count = 0;
   const [DData] = useContext(Store);
   // console.log(DData[0]);
-  const x = Math.floor(Math.random() * 10);
+  const x = Math.floor(Math.random() * 50);
   return (
     <>
       <div>
