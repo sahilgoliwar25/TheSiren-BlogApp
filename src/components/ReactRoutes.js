@@ -10,6 +10,9 @@ import Technology from "./Technology/Technology";
 import ContextAPI from "./ContextAPI";
 import "./GlobalNavComp.css";
 import DynamicBlog from "./DynamicBlog/DynamicBlog";
+import AboutUs from "./Other/AboutUs";
+import ContactUs from "./Other/ContactUs";
+import HelpCenter from "./Other/HelpCenter";
 
 function ReactRoutes() {
   return (
@@ -33,6 +36,10 @@ function ReactRoutes() {
 
           <Route path="/technology" element={<Technology />} />
           <Route path="/technology/:Id" element={<DynamicBlog />} />
+
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/help" element={<HelpCenter />} />
 
           <Route path="*" element={<Error />} />
         </Routes>

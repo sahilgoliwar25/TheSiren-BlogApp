@@ -52,9 +52,9 @@ function Footer() {
         <div>
           <h2>Resources</h2>
           <div className="footer-service-nav">
-            <Link to="/hollywood">Help Centre</Link>
-            <Link to="/fitness">Careers</Link>
-            <Link to="/food">Contact Us</Link>
+            <Link to="/help">Help Centre</Link>
+            <Link to="/about-us">About Us</Link>
+            <Link to="/contact-us">Contact Us</Link>
           </div>
         </div>
         <div className="footer-company-info">
