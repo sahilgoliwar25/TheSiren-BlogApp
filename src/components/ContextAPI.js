@@ -820,15 +820,6 @@ function ContextAPI(props) {
       date: "August 21 2022",
       cat: "Hollywood",
     },
-    {
-      id: "71",
-      heading: "",
-      image: "",
-      description: "",
-      type: "Travel",
-      date: "August 21 2022",
-      cat: "",
-    },
   ]);
   return (
     <div>
